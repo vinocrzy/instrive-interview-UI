@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.full-height-div .centered-div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-body {
+  min-height: 100vh;
+}
+
+.inner-box {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.input-holder {
+  margin: 1rem 0;
+}
